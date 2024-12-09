@@ -1,0 +1,94 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "backgrounds-Owal",
+				"abbreviation": "backgrounds-Owal",
+				"full": "backgrounds-Owal",
+				"authors": [
+					"Sylvie"
+				],
+				"version": "1.0.0",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1540936360,
+		"dateLastModified": 1729630006,
+		"_dateLastModifiedHash": "18f225c3ab",
+		"edition": "classic"
+	},
+	"background": [
+		{
+			"name": "Clown!",
+			"source": "Homebrew Owal",
+			"page": N/A,
+			"skillProficiencies": [
+				{
+					"investigation": true,
+					"stealth": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Investigation}, {@skill Stealth}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of tool"
+						},
+						{
+							"type": "item",
+							"name": "Instrument Proficiencies",
+							"entry": "One type of instrument"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "The tool & instrument you choose for this background's instrument proficiency ({@filter instrument|items|source=phb|miscellaneous=mundane|type=instrument}) ({@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}), and a {@item pouch|phb} containing 15 gp"
+						}
+					]
+				},
+				{
+					"name": "Overview:",
+					"type": "entries",
+					"entries": [
+						"You are a clown!"
+					]
+				},
+				{
+					"name": "Feature: Popular Demand",
+					"type": "entries",
+					"entries": [
+						"You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble’s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "the instrument you choose for this background's instrument proficiency (instrument)",
+						},
+						{
+							"special": "the tool you choose for this background's tool proficiency (artisan's tools)"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1500
+						}
+					]
+				}
+			]
+		}
+	]
+}
