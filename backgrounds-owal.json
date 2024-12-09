@@ -2,11 +2,11 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "backgrounds-Owal",
-				"abbreviation": "backgrounds-Owal",
-				"full": "backgrounds-Owal",
+				"json": "Brewskii",
+				"abbreviation": "YGtT",
+				"full": "Yustra's Guide to Trellym",
 				"authors": [
-					"Sylvie"
+					"Brewskii"
 				],
 				"version": "1.0.0",
 				"targetSchema": "1.0.0"
@@ -19,13 +19,13 @@
 	},
 	"background": [
 		{
-			"name": "Clown!",
-			"source": "Homebrew Owal",
-			"page": 1,
+			"name": "Knight of the Silver Thorn",
+			"source": "Brewskii",
+			"page": 150,
 			"skillProficiencies": [
 				{
-					"investigation": true,
-					"stealth": true
+					"history": true,
+					"survival": true
 				}
 			],
 			"entries": [
@@ -36,22 +36,22 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies",
-							"entry": "{@skill Investigation}, {@skill Stealth}"
+							"entry": "{@skill History}, {@skill Survival}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of tool"
+							"entry": "One type of artisan's tools"
 						},
 						{
 							"type": "item",
-							"name": "Instrument Proficiencies",
-							"entry": "One type of instrument"
+							"name": "Languages",
+							"entry": "Draconic"
 						},
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "The tool & instrument you choose for this background's instrument proficiency ({@filter instrument|items|source=phb|miscellaneous=mundane|type=instrument}) ({@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}), and a {@item pouch|phb} containing 15 gp"
+							"entry": "An {@item emblem|phb} of the symbol of the Silver Thorn denoting your rank as a Knight, the tool you choose for this background's tool proficiency ({@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}), and a {@item pouch|phb} containing 15 gp"
 						}
 					]
 				},
@@ -59,14 +59,16 @@
 					"name": "Overview:",
 					"type": "entries",
 					"entries": [
-						"You are a clown!"
+						"You are one of the Knights of the Silver Thorn, an arbiter of the covenant that binds the people of Gaea. You have been knighted by a Warden in front of the Bonsai on Tenrou island after years of training. You have likely been granted a degree of automonany allowing you to travel the land as you please. You have the title of 'Sir' or 'Lady'.",
+						"You can start with one of your two {@b Features}. If you later lose your squire, or gain a new one, your feature changes to the other."
 					]
 				},
 				{
-					"name": "Feature: Popular Demand",
+					"name": "Feature: Arbiter",
 					"type": "entries",
 					"entries": [
-						"You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble’s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+						"You receive shelter and succor from members of the Silver Thorn and those who are sympathetic to its aims. This help comes in the form of free shelter and meals, and healing when appropriate, as well as occasionally risky assistance, such as a band of local citizens rallying to aid a sorely pressed Knight, or those who support the Silver Thorn helping to smuggle a Knight out of town when he or she is being hunted unjustly.",
+						"If you register a squire with your Warden, you lose this feature and gain the {@b Squire} feature."
 					],
 					"data": {
 						"isFeature": true
@@ -100,7 +102,8 @@
 				{
 					"_": [
 						{
-							"special": "the instrument you choose for this background's instrument proficiency (instrument)",
+							"item": "emblem|phb",
+							"displayName": "emblem of the symbol of the Silver Thorn denoting your rank as a Knight"
 						},
 						{
 							"special": "the tool you choose for this background's tool proficiency (artisan's tools)"
